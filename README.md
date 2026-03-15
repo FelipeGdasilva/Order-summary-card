@@ -21,4 +21,4 @@ Este é um projeto desenvolvido como desafio do [Frontend Mentor](https://www.fr
 
 ## 🔗 Como visualizar
 
-Podes acessar o projeto final através deste link: 
+Podes acessar o projeto final através deste link: https://felipegdasilva.github.io/Order-summary-card/
