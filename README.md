@@ -26,14 +26,14 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
-![Demonstração do Projeto](./public/design/desktop-preview.jpg)
+![Demonstração do Projeto](./public/image/desktop-preview.gif)
 
 *(Dica: substitua o caminho acima por uma imagem ou GIF do seu projeto rodando!)*
 
 ### Links
 
 - **URL do Repositório:** https://github.com/FelipeGdasilva/Order-summary-card
-- **URL do Site (Deploy Vercel):** [https://seu-projeto.vercel.app](https://seu-projeto.vercel.app)
+- **URL do Site (Deploy Vercel):** https://order-summary-card-one.vercel.app/
 
 ---
 
