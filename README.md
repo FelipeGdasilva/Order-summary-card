@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Mentor - Order Summary Component Solution
 
-## Getting Started
+Esta é uma solução para o desafio [Order Summary Component do Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlP2Ro535). Os desafios do Frontend Mentor ajudam a aprimorar habilidades práticas construindo projetos reais.
 
-First, run the development server:
+## 📝 Sumário
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Visão Geral](#visão-geral)
+  - [O Desafio](#o-desafio)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Meu Processo](#meu-processo)
+  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
+  - [O que aprendi](#o-que-aprendi)
+- [Autor](#autor)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Visão Geral
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### O Desafio
 
-## Learn More
+Os usuários devem ser capazes de:
 
-To learn more about Next.js, take a look at the following resources:
+- Visualizar o layout ideal para o componente dependendo do tamanho da tela do dispositivo (Responsivo).
+- Ver estados de hover para todos os elementos interativos na página.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Screenshot
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Demonstração do Projeto](./public/design/desktop-preview.jpg)
 
-## Deploy on Vercel
+*(Dica: substitua o caminho acima por uma imagem ou GIF do seu projeto rodando!)*
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **URL do Repositório:** https://github.com/FelipeGdasilva/Order-summary-card
+- **URL do Site (Deploy Vercel):** [https://seu-projeto.vercel.app](https://seu-projeto.vercel.app)
+
+---
+
+## 🛠️ Meu Processo
+
+### Tecnologias Utilizadas
+
+- **[Next.js](https://nextjs.org/)** - React Framework para produção
+- **[TypeScript](https://www.typescriptlang.org/)** - Tipagem estática
+- **[Tailwind CSS](https://tailwindcss.com/)** - Estilização utility-first
+- **Flexbox** - Layout e alinhamento de componentes
+- **Next Font (`next/font/google`)** - Otimização da fonte Red Hat Display
+
+### O que aprendi
+
+Neste projeto, consolidei a transição do CSS tradicional para a estilização ágil com **Tailwind CSS**, focando na criação de componentes responsivos e alinhamentos precisos.
+
+Alguns aprendizados chave:
+
+1. **Alinhamento e Flexbox com Tailwind:**
+   Uso de `flex items-center justify-between` para estruturar sub-cards internos (como a caixa do plano com o botão de alteração) e `text-left` para redefinir o alinhamento de texto herdado do container pai.
+
+2. **Estilização de Estados Interativos:**
+   Aplicação de transições suaves e cores personalizadas nos botões e links usando classes como `hover:bg-[#766cf1]` e `hover:underline`.
+
+3. **Boas Práticas de Layout:**
+   Construção de espaçamentos verticais responsivos utilizando `py-*` e `gap-*` em containers internos, mantendo as imagens coladas às bordas do card principal sem quebrar a responsividade.
+
+---
+
+## 👨‍💻 Autor
+
+- **LinkedIn:** www.linkedin.com/in/felipe-gomes-silva-dev/
+- **Frontend Mentor:** https://www.frontendmentor.io/profile/FelipeGdasilva
+- **GitHub:** https://github.com/FelipeGdasilva
